@@ -1,55 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto+Condensed:wght@700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: #AAAAAA; */
+
 }
 body{
     font-family: 'Poppins', sans-serif;
-    /* max-width: 1000px;
-    margin: 0 auto;
-    padding: 50px; */
-}
-/* .container{
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-}
-/*******************  navbar**************/
-/* nav{
-    display: flex;
-    justify-content: space-between;
-}
-.navigation{
-    display: flex;
-}
-.navigation li{
-    list-style: none;
-    margin: 10px;
-}
-.navigation li a{
-    text-decoration: none;
-    color: black;
-    font-weight: 700;
-    margin: 10px 5px;
     
-    
-} */
-
-
- /*********influencer part********* */
-/* .influencer{
-    display: flex;
-    background-image: url(images/Circle.svg);
-    background-repeat: no-repeat;
-    background-position: right 15% bottom 45%;
 }
-.influencer img{
-    width: 100%;
-} */ 
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -94,17 +56,20 @@ nav{
     color: cornsilk;
     margin: 0px 8px;
     font-weight: bold;
-    
 
 }
+
 .influence-left h1{
     font-size: 52px;
     line-height: 70px;
 }
+
 .arro-space{
-    /* word-spacing: 1rem; */
+
     padding-right:10px;
 }
+
+
 /* ********Company logo******** */
 .company-logo{
     display: grid;
@@ -139,52 +104,44 @@ nav{
     grid-row-gap: 37px;
     margin-bottom: 60px;
 }     
-.collection{
-    /* position: absolute; */
-    /* position: absolute; */
+.collection{ 
     width: 329px;
      height: 476px;
     background: #FFFFFF;
-    /* border: 2px solid gray; */
     padding: 10px;
-    
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
-   
-   
 }
-
-   
 
 .title .font-size{
     font-weight: normal;
     font-size: 24px;
 }
+
 .star-color{
     color: #FFC014 ;
     margin-top: 15px;
-
 }
+
 .small-title-heading{
     font-weight: 500;
-font-size: 28px;
-line-height: 40px;
+    font-size: 28px;
+    line-height: 40px;
 
 }
 .title p{
-   
     font-style: normal;
-font-weight: bold;
-font-size: 14px;
-color: #787885;
+    font-weight: bold;
+    font-size: 14px;
+    color: #787885;
 }
+
 .title span{
-   margin: 10px;
-    
+   margin: 10px;  
 }
 
 #button-design{
-   border: none;
+    border: none;
      margin-left:87%;
      margin-top:-1%;
     display:block;
@@ -194,13 +151,13 @@ color: #787885;
     color: rgba(224, 44, 109, 0.87);
     
 }
-/* Featured products at one place */
+
 .featured-products{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 100px;
-    
 }
+
 .product{
     padding-top: 20px;
 }
@@ -213,7 +170,7 @@ color: #787885;
 }
 .product h1{
     font-size: 38px;
-line-height: 60px;
+    line-height: 60px;
 }
 .image{
     height: 270px;
@@ -238,4 +195,41 @@ line-height: 60px;
 }
 #three-d-button-design:active{
     top: 5px;
+}
+
+
+/* footer design */
+
+footer{
+    background-color: #0A0826;;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    color: white;
+    margin-top: 60px;
+
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1.8;
+}
+.socials{
+    display: flex;
+   
+
+}
+.socials li{
+    list-style: none;
+    margin: 0 10px;
+    
+  
+}
+.socials a{
+    color: white;
+    
 }
