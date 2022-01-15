@@ -178,6 +178,12 @@ nav{
     width: 404px;
     border: 2px solid white;
     border-radius: 10px;
+    transition: width 10s, transform 5s;
+    
+}
+.image:hover{
+    transform: rotate(360deg);
+    width: 600px;
 }
 #three-d-button-design{
     outline: 0;
